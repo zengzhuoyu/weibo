@@ -27,10 +27,10 @@ $(function () {
 				required : true,
 				user : true,
 				remote : {
-					url : checkAccount,
-					type : 'post',
-					dataType : 'json',
-					data : {
+					url : checkAccount,//发送地址
+					type : 'post',//发送方式
+					dataType : 'json',//发送数据类型
+					data : {//发送的数据
 						account : function () {
 							return $('#account').val();
 						}
