@@ -11,5 +11,7 @@
 		'DB_PREFIX' => 'hd_',	//数据库表前缀
 
 		'DEFAULT_THEME' => 'default',	//默认主题模版	
+
+		'URL_MODEL' => 1,//pathinfo方式	
 	);
 ?>
